@@ -2,7 +2,7 @@ FROM alpine:latest
 
 MAINTAINER romantix74 <romantix74@yandex.ru>
 
-RUN apk --update add bind
+RUN apk --update --no-cache add bind
 
 EXPOSE 53
 
